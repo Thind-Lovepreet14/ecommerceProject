@@ -1,1 +1,31 @@
-/* This is going to be used for any modified/custom styling */
+/* General Styles */
+.hidden {
+    display: none !important;
+}
+
+/* Browser reset */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Photo Gallery Styles */
+
+
+
+/* Product Styles */
+
+.product-column {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
