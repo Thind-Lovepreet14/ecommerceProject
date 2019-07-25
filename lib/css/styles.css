@@ -30,8 +30,33 @@ html, body {
     padding: 0;
 }
 
-#navbarText a{
+/* #navbarText a{
     color: #fff;
+} */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #fcd307;
+}
+.hover a:hover{
+    color: #fcd307 !important;
+}
+/* .nav-link.active {
+    color: #fcd307;
+} */
+/* color: #fcd307; */
+/* .active a{
+    color: #fcd307;
+} */
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-right: 4em;
+}
 }
 
 /* Photo Gallery Styles */
@@ -39,6 +64,20 @@ html, body {
     height: 100vh;
 }
 
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+  }  
+
+.carousel-control-next, .carousel-control-prev {
+    width: 7%;
+}
 
 /* Product Styles */
 
