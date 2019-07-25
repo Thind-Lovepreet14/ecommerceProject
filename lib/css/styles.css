@@ -1,6 +1,8 @@
 /* General Styles */
 .hidden {
     display: none !important;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 /* Browser reset */
