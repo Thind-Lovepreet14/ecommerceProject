@@ -89,4 +89,61 @@ html, body {
     text-align: center;
     margin: 50px;
 }
-/*Navbar ul */
+
+/* Home Page Second Container */
+.subheading {
+    color: #fcd307;
+}
+
+.welcome {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.lebronpic {
+    height: 300px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 65px !important; 
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    color: #fcd307;
+    /* color: #fff; */
+}
+
+.videoIcon {
+    top: 32%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    
+    /* margin-left: -25px;
+    margin-top: -30px; */
+}
+
+span.run4it {
+display: block;
+color: #fcd307;
+}
+
+p.home-second-container {
+    font-size: 0.95em;
+    color: #767778;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #fcd307;
+    border-color: #fcd307;
+}
+
+
