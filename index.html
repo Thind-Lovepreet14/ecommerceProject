@@ -7,12 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    
     <link rel="stylesheet" href="./lib/css/styles.css">
     <link rel="stylesheet" type="text/css" href="./lib/css/flaticon.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Home</title>
   </head>
+
   <header>
       <nav class="container justify-content-end navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#"><i class="flaticon-gym"></i></a>
@@ -65,8 +71,8 @@
 
     <!-- Second Container -->
 
-    <section class="container pt-5">
-      <div class="row mt-5">
+    <section class="container mt-5 mb-5">
+      <div class="row pt-5 pb-5">
         <div class="col-md-6">
           <!-- Nike Video -->
           <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -102,13 +108,25 @@
       </div>
     </section>
    
+    <section class="container-fluid vidContainer">
+        <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="./lib/vid/container_three_video.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Achieve Greatness</h1>
+        <!-- <p class="lead mb-0">With My Apparel</p> -->
+      </div>
+    </div>
+  </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery -->
-    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="lib/js/script.js"></script>
- 
   </body>
 </html>
