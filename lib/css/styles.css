@@ -233,7 +233,7 @@ footer {
 
 /* Hero */
 .hero-product{
-    background-image: url("https://images.unsplash.com/photo-1547053295-bb530ab5af2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.unsplash.com/photo-1547053295-bb530ab5af2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -261,4 +261,31 @@ footer {
     /* padding: 10px; */
     text-align: center;
     /* margin: 10px; */
+}
+
+
+
+/* Contact Page */
+.hero-contact{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2695&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    text-align: center;
+}
+.hero-contact h1{
+    padding-top:50vh;
+    font-family: 'Suez One', serif;
+    font-size: 4rem;
+    color: #fff;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+
+.hero_main_contact{
+    padding:0;
 }
