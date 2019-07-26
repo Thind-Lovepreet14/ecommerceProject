@@ -89,14 +89,6 @@ html, body {
     width: 7%;
 }
 
-/* Product Styles */
-
-.product-column {
-    border: 2px solid black;
-    padding: 20px;
-    text-align: center;
-    margin: 50px;
-}
 
 /* Home Page Second Container */
 .subheading {
@@ -235,4 +227,38 @@ footer {
 .footerIcons a{
     width: 27px;
     margin-right: 50px;
+}
+
+/* Products Page */
+
+/* Hero */
+.hero-product{
+    background-image: url("https://images.unsplash.com/photo-1547053295-bb530ab5af2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    text-align: center;
+}
+.hero-product h1{
+    padding-top:50vh;
+    font-family: 'Suez One', serif;
+    font-size: 4rem;
+    color: #fff;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.hero{
+    padding:0;
+}
+
+/* Product Styles */
+
+.product-column {
+    border: 2px solid black;
+    /* padding: 10px; */
+    text-align: center;
+    /* margin: 10px; */
 }

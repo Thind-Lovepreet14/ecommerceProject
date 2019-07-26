@@ -12,54 +12,93 @@
   <link rel="stylesheet" href="./lib/css/styles.css">
   <link rel="stylesheet" type="text/css" href="./lib/css/flaticon.css">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Suez+One&display=swap" rel="stylesheet">
 
-  <title>Product</title>
 </head>
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./product.html">Product</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
 
 <body>
-  <div class="product-container">
-    <h1>Products</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm product-column">
-          a
-        </div>
-        <div class="col-sm product-column">
-          b
-        </div>
-        <div class="col-sm product-column">
-          c
-        </div>
-        <div class="col-sm product-column">
-          d
-        </div>
-
+<header>
+    <nav class="container justify-content-end navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html"><i class="flaticon-gym"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item hover">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active hover">
+            <a class="nav-link" href="./product.html">Product</a>
+          </li>
+          <li class="nav-item hover">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+  </header>
 
+  <section class="container-fluid hero">
+    <div class="hero-product">
+      <h1>Our <span style="color: #fcd307;">Stock</span></h1>     
     </div>
-  </div>
+  </section>
+
+
+  <section class="product-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3 product-column">
+          <img class="img-fluid" src="./lib/img/kyrie_tshirt.jpg">
+        </div>
+        <div class="col-md-3 product-column">
+          <img class="img-fluid" src="./lib/img/james_tshirt.webp">
+        </div>
+        <div class="col-md-3 product-column">
+          <img class="img-fluid" src="./lib/img/fred-face_2000x.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+          <div class="col-md-3 product-column">
+            <img class="img-fluid" src="./lib/img/freak_hoodie.jpg">
+          </div>
+          <div class="col-md-3 product-column">
+            <img class="img-fluid" src="./lib/img/adidas_tiro_19_sweatpants.jpg">
+          </div>
+          <div class="col-md-3 product-column">
+            <img class="img-fluid" src="./lib/img/san_antonio_spurs_nike_therma_sweats.jpg">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+            <div class="col-md-3 product-column">
+              <img class="img-fluid" src="./lib/img/ua_sportstyle_pique.jpg">
+            </div>
+            <div class="col-md-3 product-column">
+              <img class="img-fluid" src="./lib/img/puma_speed_pants.jpg">
+            </div>
+            <div class="col-md-3 product-column">
+              <img class="img-fluid" src="./lib/img/BELIEVE_THIS_HIGH_RISE_7_8_TIGHTS.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+              <div class="col-md-3 product-column">
+                <img class="img-fluid" src="./lib/img/us_play_up_3.0_twist .jpeg">
+              </div>
+              <div class="col-md-3 product-column">
+                <img class="img-fluid" src="./lib/img/studio_mesh_womens_tank.jpg">
+              </div>
+              <div class="col-md-3 product-column">
+                <img class="img-fluid" src="./lib/img/wanderlust_warp_knit_crop_top_adidas.webp">
+              </div>
+            </div>
+    </div>
+  </section>
   <!-- Optional JavaScript -->
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
