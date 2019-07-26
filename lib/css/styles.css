@@ -63,7 +63,7 @@ html, body {
 
 /* Photo Gallery Styles */
 .carousel-inner img{
-    height: 100vh;
+    max-height: 100vh;
 }
 
 .carousel-item:after {
@@ -140,12 +140,11 @@ p.home-second-container {
     color: #767778;
 }
 
-.btn-primary {
+.btn-joinUs {
     color: #fff;
     background-color: #fcd307;
     border-color: #fcd307;
 }
-
 /* Home Page Third Container */
 
 .vidContainer {
@@ -184,8 +183,16 @@ p.home-second-container {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.6;
     z-index: 1;
+  }
+
+  .videoText {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    
   }
   
   @media (pointer: coarse) and (hover: none) {
@@ -197,4 +204,26 @@ p.home-second-container {
     }
   }
   
+/* Footer */
+footer {
+    background: #1a1717;
+}
 
+.iconColor {
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 12px #222222;
+}
+
+.footerIcons i:hover {
+    color: #fcd307;
+}
+
+.copyrightText p {
+    color: #767778;
+}
+
+.footerIcons a{
+    width: 27px;
+    margin-right: 50px;
+}
