@@ -53,13 +53,20 @@ html, body {
     color: #fcd307;
 } */
 
-@media (min-width: 992px) {
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
-    margin-right: 4em;
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        margin-right: 4em;
+    }
 }
+
+@media screen and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        background-color: #fcd307;
+    }
 }
+
 
 /* Photo Gallery Styles */
 .heroFont h1{
@@ -102,6 +109,12 @@ html, body {
 
 .lebronpic {
     height: 300px;
+}
+
+@media screen and (max-width: 991px) {
+    .lebronpic {
+        height: auto;
+    }
 }
 
 .material-icons {
@@ -194,6 +207,10 @@ p.home-second-container {
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
     
+  }
+
+  .play-video-link {
+      display: block;
   }
   
   @media (pointer: coarse) and (hover: none) {
