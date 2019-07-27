@@ -2,7 +2,14 @@
 .hidden {
     display: none !important;
     font-family: 'Fjalla One', sans-serif;
+}
 
+.yellow-text {
+    color: #fcd307 !important;
+}
+
+.white-text {
+    color: #ffffff !important;
 }
 
 /* Browser reset */
@@ -19,6 +26,24 @@ html, body {
    /* overflow-y: hidden; */
 }
 
+
+/* Bootstrap Overrides */
+
+.btn-primary {
+    color: black;
+    font-family: "Arial Black", Arial, Sans-Serif;
+    background-color: #fcd307;
+    border-color: transparent;
+    font-size: 1.3em;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: black !important;
+    color: #fcd307 !important;
+    outline: none !important;
+}
 
 /* Navigation Bar Styles */
 
@@ -59,7 +84,7 @@ html, body {
         padding-left: .5rem;
         margin-right: 4em;
     }
-    
+
     .nav-link {
         font-family: "Arial Black", Arial, Sans-Serif;
         text-transform: uppercase;
