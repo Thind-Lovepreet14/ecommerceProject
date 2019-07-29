@@ -313,14 +313,16 @@ footer {
     border: 1px solid #fcd307;
 }
 
-
-
 .product-column img {
     max-height: 50vh;
 }
 
 .item-description {
     color: #bdc0c2;
+}
+
+.product-price {
+    float: right;
 }
 
 /* Contact Page */
